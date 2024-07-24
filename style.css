@@ -1,0 +1,423 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    align-items: center;
+}
+.flexAround{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.decoration{
+    text-decoration:none ;
+}
+.flexBetween{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.Activite{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .BlockActivite{
+    width: 100%;
+    height: 600px;
+  }
+.size{
+    width:45%;
+}
+.color{
+    color: blue
+
+}.color2{
+    color: black;
+}
+.section{
+    size: 2px;
+}
+/*HEADER BARRE DE RECHERCHE*/
+.borduresearch{
+    width: 400px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px #69757a;
+}
+.paddingsearch{
+    padding-left: 20px;
+}
+.recherche{
+height: 50px;
+width: 230px;
+font-size: 18px;
+color: black;
+font-weight: bold;
+}
+.iconsize{
+    height: 50px;
+    width: 50px;
+    background-color:lightgrey;
+    border-radius: 25px 0 0 25px ;
+    align-items: center;
+
+}
+.buttonSearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 132, 255);
+    border-radius: 0 25px 25px 0;
+    font-weight: bold;
+}
+/*FILTRE*/
+.filterIcon{
+    color: #0065fc;
+    background-color: #deebff;
+    border: 2px solid #deebff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+}
+.fi{
+    margin: 0 3rem 2rem 0rem;
+}
+.filtre-list{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.filterText{
+    margin-left: 40px;
+    margin-right: -100px;
+}
+.filtre-art{
+    border: 2px solid #f2f2f2;
+    font-weight: 700;
+    border-radius: 50px;
+    min-height: 3rem;
+    width: 13rem;
+    margin: 0 1.5rem 1.5rem 0;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    will-change: transform;
+}
+.filtre-art:hover{
+    color: #0065fc;
+    transform: translateY(-3px);
+}
+.searchInfo{
+    display: flex;
+    align-items: center;
+}
+.searchInfoIcon {
+width: 3rem;
+height: 3rem;
+padding: 0.1rem;
+border: 2px solid #f2f2f2;
+color:#0065fc ;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 35px;
+font-weight:bold ;
+}
+/*HEBERGEMENT A MARSEILLE ET LES PLUS POPULAIRE*/
+.populaire{
+  flex: 2;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.populaire2{
+  flex: 1;
+  background-color: #f2f2f2;
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.fasfa-star{
+  color: #0065fc;
+}
+
+.TaillEbergement{
+    flex: 2;
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 10px;
+    height: 650px;
+    
+}
+.Fondblanc{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    border-radius:20px;
+    margin-top: 25px;
+}
+.flexcolumncentre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexcolumnaround{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.componetinfo{
+    display: flex;
+    align-items: center;
+}
+.BlokHebergement{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Fondblanc1{
+    background-color: white;
+    height: 160px;
+    padding: 2% 0 2% 2%;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .BlokPopulaire12{
+    margin-bottom: 25px;
+  }
+  .DetaillPopulaire{
+    width: 60%;
+    padding-left: 5%;
+  }
+.decorationNone{
+    text-decoration: none;
+}
+.Blok1{
+    margin-bottom: 10px;
+}
+
+.BackGris{
+    background-color: #F2F2F2;
+  }
+  .TaillEbergement{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  .TaillEbergement1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .TaillPopulaire{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+  }
+  .TaillPopulaire1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .BlokHeberge{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .imageBack1{
+    background-image: url("./img/hosting/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imageBack2{
+    background-image: url("./img/hosting/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imageBack3{
+    background-image: url("./img/hosting/small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  .imageBack4{
+    background-image: url("./img/hosting/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  .imageBack5{
+    background-image: url("./img/hosting/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imageBack6{
+    background-image: url("./img/hosting/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imageBack7{
+    background-image: url("./img/hosting/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
+  .imageBack8{
+    background-image: url("./img/hosting/small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
+  .imageBack9{
+    background-image: url("./img/hosting/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  } 
+
+      /* Activités à marseille */
+.Activite{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.BlockActivite{
+  width: 100%;
+  height: 600px;
+}
+.BlockActivite2356{
+  width: 23%;
+  height: 650px;
+}
+.TailActivite1:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.BlockActivite2356:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.Bastop{
+  padding-bottom: 15px;
+}
+/* blok d'activités  */
+.imageActivite1{
+  background-image: url("/img/activity/medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0px;
+}
+.imageActivite2{
+  background-image: url("/img/activity/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0px;
+}
+.imageActivite3{
+  background-image: url("/img/activity/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0px;
+}
+.imageActivite4{
+  background-image: url("/img/activity/medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0px;
+}
+.imageActivite5{
+  background-image: url("/img/activity/small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0px;
+}
+.imageActivite6{
+  background-image: url("/img/activity/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0px;
+}
+.TailActivite2356{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+/*block */
+.TailActivite{
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.Hauteur{
+  height: 70px;
+}
+.TitreHauter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+
+/*footer*/
+.footer{
+    height: 300px;
+    margin-top: 100px;
+    background-color: lightgray;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.tailleblocfoot{
+    height: 150px;
+}
